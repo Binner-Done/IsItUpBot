@@ -10,7 +10,7 @@ import net.dv8tion.jda.core.entities.Game;
 public class IsItUp extends JBA {
 
     public static void main(String[] args){
-        new IsItUp().init(AccountType.BOT, "secret token", "*");
+        new IsItUp().init(AccountType.BOT, "Secret Token", "*");
     }
 
 

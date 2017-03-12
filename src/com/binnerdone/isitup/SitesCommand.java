@@ -88,19 +88,19 @@ public class SitesCommand implements Command {
         String s2;
         String s3;
         if(site1==true){
-            s1 = "Online!";
+            s1 = "Online! :white_check_mark: ";
         }else{
-            s1 = "Offline!";
+            s1 = "Offline! :x:";
         }
         if(site2==true){
-            s2 = "Online!";
+            s2 = "Online! :white_check_mark: ";
         }else{
-            s2 = "Offline!";
+            s2 = "Offline! :x:";
         }
         if(site3==true){
-            s3 = "Online!";
+            s3 = "Online! :white_check_mark: ";
         }else{
-            s3 = "Offline!";
+            s3 = "Offline! :x:";
         }
         textChannel.sendMessage(new EmbedBuilder()
                 .setAuthor("Favourite Sites", null, user.getEffectiveAvatarUrl())
