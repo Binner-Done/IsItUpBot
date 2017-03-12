@@ -17,7 +17,7 @@ public class HelpCommand implements Command {
     public void onCommand(User user, TextChannel textChannel, Message message, String[] strings, Member member) {
         textChannel.sendMessage(new EmbedBuilder()
                 .setAuthor(user.getName(), null, user.getEffectiveAvatarUrl())
-                .setDescription("❔ Help \n *ping - Pings your connection to the bot \n *status {url} - Check the status of a website")
+                .setDescription("❔ Help \n *ping - Pings your connection to the bot \n *status {url} - Check the status of a website \n *info - Tells you info about the bot \n *sites - Status of my favourite sites!")
                 .setColor(new Color(30,30,100))
                 .build())
                 .queue();

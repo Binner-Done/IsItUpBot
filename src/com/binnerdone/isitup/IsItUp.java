@@ -16,11 +16,11 @@ public class IsItUp extends JBA {
 
     @Override
     public void run() {
-        getClient().getPresence().setGame(Game.of("Is It Up? Version 0.0.0.1 *help for help!", null));
         registerCommand(new PingCommand());
         registerCommand(new StatusCommand());
         registerCommand(new HelpCommand());
         registerCommand(new InfoCommand());
+        registerCommand(new SitesCommand());
         LOGGER.info("Bot Launched!");
     }
 }
